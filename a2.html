@@ -46,6 +46,57 @@
     <li><a href="https://itatjcu.slack.com/messages/G0XKS1Y8H" target="_blank">Slack group</a>
     </li>
   </ul>
+  <h1>Workflow </h1>
+<ul>
+ <li> <a href="https://itatjcu.slack.com/messages/G9WDG0P3N">Slack</a> </li>
+<li> Slack + Trello + Github intergration</li>
+<li> Discord</li>
+</ul>
+  <h1>Wordpress</h1>
+<ul>
+<li>Theme Starter: <a href="https://underscores.me/">Underscores</a>
+<li>Themes: <a href="https://github.com/mind001/cp3402-2023/tree/master/the-coffee-can/the-coffee-can">Visit Current Themes</a></li>
+<li>Production Site:<a href="http://thecoffeecan.ga/">The Coffee Can</a></li>
+<li>Staging Site:<a href="http://thecoffeecan.ga/staging/">The Coffee Can - Staging</a></li>
+<li>Plugins:<a href="https://elementor.com/">Elementor</a></li>
+<li>Plugins:<a href="https://en-au.wordpress.org/plugins/all-in-one-wp-migration/">All in one WP migration</a></li>
+<li>Plugins:<a href="https://wpforms.com/">WP Forms</a></li>
+ </ul>
+  <ul>
+<h1>Server </h1>
+<li>Hosting:<a href="https://www.siteground.com/web-hosting.htm?mktafcode=217a0df605deda38c6cef425dcea876b&msclkid=c1736710cf3d154e4d163bfc75d50a5a">Siteground</a></li>
+ <li>MySQL</li>
+</ul>
+<h1>Developer Workflow</h1>
+The first step is to install Wordpress on your own computer by <a href="https://wordpress.org/">Wordpress.org</a>
+
+You must download WordPress after installation. <a href="http://www.wampserver.com/en/">WAMP</a> (<a href="https://www.mamp.info/en/">MAMP</a> or <a href="https://www.apachefriends.org/index.html">XXAMP</a> for MacOS and linux) and configure it. 
+WAMP should be accessible in the bottom right of the screen after a successful installation. Go ahead and do the following:
+
+<ul>
+<li> Open WAMP options and select PhpMyAdmin</li>
+<li> Just input the database name and click "create" to establish a new database with the name of your website.</li>
+<li> Go to the MAMP directory on the system disc of your computer. Paste the Wordpress folder that has been unzipped into the htdocs folder.</li>
+<li> To finish installation, enter localhost/"name of your wordpress file in the htdocs"</li>
+</ul>
+<h1>Adding Themes</h1>
+<ul>
+<li> Open <a href="https://underscores.me/">Underscores</a></li>
+<li> Be sure to use the "sassify option" when downloading, and give the file the name of the theme you want for your website.</li>
+<li> Activate the theme by placing the file in the WordPress Themes folder and using the WordPress Admin.</li>
+<li> Upon activation, you may upload the modifications and new theme to github.</li>
+</ul
+
+<h1>Deployment</h1>
+You may use the command line to publish website updates to github, but if you're not comfortable with it, we highly recommend downloading <a href="https://desktop.github.com/">Github Desktop</a> as it has an easy to understand UI.If you are using the command line:
+<ul>
+  <li> Use the web browser to access the wp-content folder. <code>cd</code> command
+<li> Use git status in the relevant place to view any changes.</li>
+<li> Use git add (file path) to add any changed files</li>
+<li> To commit changes and include a commit message, use git commit -m "commit message"</li>
+<li> Use git push origin master to push changes to master on github</li>
+<li> Use the git help command to get a list of useful information if you run into any problems or don't know how to use a command.</li>
+  </ul>
   <h2>References </h2>
   <h2>Login Information for WordPress admin</h2>
   <p>Login: admin</p>
